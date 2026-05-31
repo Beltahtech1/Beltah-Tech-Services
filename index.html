@@ -1,318 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Beltah Tech Services | ICT Solutions</title>
-  <meta name="description" content="Beltah Tech Services – Innovative ICT solutions including POS systems, bulk SMS, CCTV, web design, biometrics and school management systems." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beltah Tech Services</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <!-- ═══════════════ NAV ═══════════════ -->
-  <nav class="navbar" id="navbar">
+  <!-- Navbar -->
+  <nav id="navbar" class="navbar">
     <div class="container nav-inner">
-      <a href="#" class="logo">
-        <span class="logo-icon">B</span>
-        <span class="logo-text">Beltah <span>Tech</span></span>
-      </a>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#stats">Why Us</a></li>
-        <li><a href="#contact" class="btn-nav">Contact Us</a></li>
-      </ul>
-      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <div class="logo">
+        <div class="logo-icon">🚀</div>
+        <div class="logo-text">Beltah <span>Tech</span></div>
+      </div>
+      <button id="hamburger" class="hamburger">
         <span></span><span></span><span></span>
       </button>
+      <div id="navLinks" class="nav-links">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#stats">Stats</a>
+        <a href="#contact" class="btn-nav">Contact</a>
+      </div>
     </div>
   </nav>
 
-  <!-- ═══════════════ HERO ═══════════════ -->
-  <section class="hero" id="home">
+  <!-- Hero -->
+  <section id="hero" class="hero">
     <div class="hero-bg">
       <div class="hero-blob blob1"></div>
       <div class="hero-blob blob2"></div>
       <div class="hero-grid"></div>
     </div>
     <div class="container hero-content">
-      <div class="hero-badge">🇰🇪 Proudly Kenyan · ICT Innovators</div>
-      <h1 class="hero-title">
-        Technology That<br />
-        <span class="gradient-text">Transforms</span> Your<br />
-        Business
-      </h1>
-      <p class="hero-sub">
-        Beltah Tech Services delivers cutting-edge ICT solutions — from smart POS systems to biometric attendance, web design, CCTV, and more. Built for Kenyan businesses, built for growth.
-      </p>
+      <div class="hero-badge">Innovative ICT Solutions</div>
+      <h1 class="hero-title gradient-text">Transforming Businesses in Kenya</h1>
+      <p class="hero-sub">Over 10 years of trusted ICT services — powering enterprises, schools, and government institutions.</p>
       <div class="hero-actions">
         <a href="#services" class="btn btn-primary">Explore Services</a>
-        <a href="#contact" class="btn btn-outline">Get a Quote</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
       </div>
       <div class="hero-stats">
-        <div class="hstat"><span class="hstat-num" data-target="300">0</span><span>+</span><p>Clients Served</p></div>
+        <div class="hstat">
+          <div class="hstat-num" data-target="300">0</div>
+          <p>Clients Served</p>
+        </div>
         <div class="hstat-divider"></div>
-        <div class="hstat"><span class="hstat-num" data-target="8">0</span><span>+</span><p>ICT Solutions</p></div>
-        <div class="hstat-divider"></div>
-        <div class="hstat"><span class="hstat-num" data-target="10">0</span><span>+</span><p>Years Experience</p></div>
+        <div class="hstat">
+          <div class="hstat-num" data-target="50">0</div>
+          <p>Projects Completed</p>
+        </div>
       </div>
     </div>
     <div class="hero-scroll">
-      <span>Scroll down</span>
+      <span>Scroll</span>
       <div class="scroll-line"></div>
     </div>
   </section>
 
-  <!-- ═══════════════ ABOUT ═══════════════ -->
-  <section class="about section" id="about">
+  <!-- About -->
+  <section id="about" class="about section">
     <div class="container about-grid">
-      <div class="about-visual">
-        <div class="about-card card-main">
-          <div class="card-icon-lg">💡</div>
-          <h3>Innovation First</h3>
-          <p>Systems customized to fit your specific business needs</p>
-        </div>
-        <div class="about-card card-secondary">
-          <div class="card-icon-lg">🤝</div>
-          <h3>Trusted Support</h3>
-          <p>Dedicated after-sales support for every client</p>
-        </div>
-        <div class="about-dot-pattern"></div>
-      </div>
-      <div class="about-text">
-        <div class="section-label">About Us</div>
-        <h2 class="section-title">Your Reliable ICT Partner in Kenya</h2>
-        <p>Beltah Tech Services is an ICT company delivering innovative technology solutions that transform businesses. With years of experience, we have served over 300 clients countrywide — from small enterprises to government institutions.</p>
-        <p>We are members of the Nairobi Chambers (KNCCI) and pride ourselves on building long-term relationships through excellent service, reliable systems, and continuous support.</p>
+      <div class="about-text fade-in">
+        <h2 class="section-title">About Us</h2>
+        <p>Beltah Tech Services is a Nairobi-based ICT company delivering innovative technology solutions that transform businesses.</p>
         <ul class="about-list">
-          <li><span class="check">✓</span> Customized systems for your exact needs</li>
-          <li><span class="check">✓</span> Continuous system updates &amp; improvements</li>
-          <li><span class="check">✓</span> Tested for high-volume and security demands</li>
-          <li><span class="check">✓</span> Nationwide reach across Kenya</li>
+          <li><div class="check">✔</div> 10+ Years Experience</li>
+          <li><div class="check">✔</div> 300+ Clients Countrywide</li>
+          <li><div class="check">✔</div> Trusted by Enterprises & Schools</li>
         </ul>
         <a href="#contact" class="btn btn-primary">Work With Us</a>
       </div>
+      <div class="about-visual fade-in">
+        <div class="about-card card-main glass-card">
+          <div class="card-icon-lg">💡</div>
+          <h3>Innovation</h3>
+          <p>We craft modern ICT solutions tailored to your needs.</p>
+        </div>
+        <div class="about-card card-secondary glass-card">
+          <div class="card-icon-lg">🔒</div>
+          <h3>Reliability</h3>
+          <p>Secure, scalable, and future-ready systems.</p>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- ═══════════════ SERVICES ═══════════════ -->
-  <section class="services section" id="services">
+  <!-- Services -->
+  <section id="services" class="services section">
     <div class="container">
       <div class="section-header">
-        <div class="section-label">What We Offer</div>
-        <h2 class="section-title">Our ICT Services</h2>
-        <p class="section-sub">Comprehensive technology solutions designed to streamline your operations and accelerate growth.</p>
+        <h2 class="section-title gradient-text">Our Services</h2>
+        <p class="section-sub">Comprehensive ICT solutions for businesses, schools, and institutions.</p>
       </div>
       <div class="services-grid">
-
-        <div class="service-card" data-index="1">
+        <div class="service-card glass-card fade-in">
           <div class="service-icon">🖥️</div>
-          <div class="service-num">01</div>
-          <h3>Point of Sale System</h3>
-          <p>Track items from supplier dispatch to stocking, sales, and profit reporting. Your ultimate business accountability partner.</p>
-          <a href="#contact" class="service-link">Learn More →</a>
+          <h3>Point of Sale</h3>
+          <p>Track inventory, sales, and profits with accountability.</p>
         </div>
-
-        <div class="service-card" data-index="2">
+        <div class="service-card glass-card fade-in">
           <div class="service-icon">📱</div>
-          <div class="service-num">02</div>
           <h3>Bulk SMS</h3>
-          <p>Reach thousands of recipients with a single click. Customize your sender ID and spend less on every message.</p>
-          <a href="#contact" class="service-link">Learn More →</a>
+          <p>Send thousands of messages instantly.</p>
         </div>
-
-        <div class="service-card featured" data-index="3">
+        <div class="service-card glass-card fade-in">
           <div class="service-icon">👆</div>
-          <div class="service-num">03</div>
           <h3>Biometric Attendance</h3>
-          <p>Simplify employee and student time tracking using biological traits. Accurate, efficient, and tamper-proof.</p>
-          <a href="#contact" class="service-link">Learn More →</a>
+          <p>Fingerprint-based time tracking for staff & students.</p>
         </div>
-
-        <div class="service-card" data-index="4">
+        <div class="service-card glass-card fade-in">
           <div class="service-icon">📹</div>
-          <div class="service-num">04</div>
           <h3>CCTV Installation</h3>
-          <p>Protect your assets with professional DVR &amp; CCTV systems. Installation and ongoing maintenance included.</p>
-          <a href="#contact" class="service-link">Learn More →</a>
+          <p>Professional DVR & CCTV security systems.</p>
         </div>
-
-        <div class="service-card" data-index="5">
+        <div class="service-card glass-card fade-in">
           <div class="service-icon">🌐</div>
-          <div class="service-num">05</div>
-          <h3>Web Design &amp; Development</h3>
-          <p>High-end, unique web designs that give your business a strong online presence. Enticing, modern, and functional.</p>
-          <a href="#contact" class="service-link">Learn More →</a>
+          <h3>Web Design</h3>
+          <p>High-end, modern websites for any business.</p>
         </div>
-
-        <div class="service-card" data-index="6">
+        <div class="service-card glass-card fade-in">
           <div class="service-icon">🏫</div>
-          <div class="service-num">06</div>
-          <h3>School Management System</h3>
-          <p>Automate classes, exams, events, and communication. Designed to streamline every school operation.</p>
-          <a href="#contact" class="service-link">Learn More →</a>
+          <h3>School Management</h3>
+          <p>Automate classes, exams, events & communication.</p>
         </div>
-
       </div>
     </div>
   </section>
 
-  <!-- ═══════════════ STATS ═══════════════ -->
-  <section class="stats section" id="stats">
+  <!-- Stats -->
+  <section id="stats" class="stats section">
     <div class="container">
       <div class="section-header">
-        <div class="section-label">Why Choose Us</div>
-        <h2 class="section-title">Built on Results</h2>
+        <h2 class="section-title">At a Glance</h2>
       </div>
       <div class="stats-grid">
-        <div class="stat-card">
-          <span class="stat-num counter" data-target="300">0</span><span class="stat-plus">+</span>
-          <p>Happy Clients</p>
+        <div class="stat-card fade-in">
+          <span class="stat-num counter" data-target="300">0</span>
+          <p>Clients Served</p>
         </div>
-        <div class="stat-card">
-          <span class="stat-num counter" data-target="50">0</span><span class="stat-plus">+</span>
-          <p>Completed Projects</p>
+        <div class="stat-card fade-in">
+          <span class="stat-num counter" data-target="50">0</span>
+          <p>Projects Completed</p>
         </div>
-        <div class="stat-card">
-          <span class="stat-num counter" data-target="8">0</span><span class="stat-plus">+</span>
-          <p>Custom Software Solutions</p>
+        <div class="stat-card fade-in">
+          <span class="stat-num counter" data-target="6">0</span>
+          <p>ICT Solutions</p>
         </div>
-        <div class="stat-card">
-          <span class="stat-num counter" data-target="10">0</span><span class="stat-plus">+</span>
+        <div class="stat-card fade-in">
+          <span class="stat-num counter" data-target="10">0</span>
           <p>Years in Business</p>
         </div>
       </div>
-      <div class="pillars-grid">
-        <div class="pillar">
-          <div class="pillar-icon">🔁</div>
-          <h4>Regular Updates</h4>
-          <p>Our systems are constantly updated — removing outdated features and adding components that match evolving business needs.</p>
-        </div>
-        <div class="pillar">
-          <div class="pillar-icon">🔒</div>
-          <h4>Secure &amp; Reliable</h4>
-          <p>Thoroughly tested under all conditions — from large data volumes to advanced security scenarios.</p>
-        </div>
-        <div class="pillar">
-          <div class="pillar-icon">⚙️</div>
-          <h4>Fully Customized</h4>
-          <p>Every system we deploy is tailored to your specific business requirements — no generic off-the-shelf products.</p>
-        </div>
-      </div>
     </div>
   </section>
 
-  <!-- ═══════════════ CONTACT ═══════════════ -->
-  <section class="contact section" id="contact">
+  <!-- Contact -->
+  <section id="contact" class="contact section">
     <div class="container contact-grid">
-      <div class="contact-info">
-        <div class="section-label">Get In Touch</div>
-        <h2 class="section-title">Let's Build Something Together</h2>
-        <p>Ready to transform your business with the right technology? Reach out to us and our team will get back to you within 24 hours.</p>
+      <div class="contact-info fade-in">
+        <h2 class="section-title gradient-text">Contact Us</h2>
+        <p>Let’s build something amazing together.</p>
         <div class="contact-details">
           <div class="contact-item">
             <div class="ci-icon">📍</div>
-            <div>
-              <strong>Location</strong>
-              <span>Nairobi, Kenya</span>
-            </div>
+            <div><strong>Address</strong><span>Nairobi, Kenya</span></div>
           </div>
           <div class="contact-item">
             <div class="ci-icon">📞</div>
-            <div>
-              <strong>Phone</strong>
-              <span>+254 700 000 000</span>
-            </div>
+            <div><strong>Phone</strong><span>+254 141 411 92</span></div>
           </div>
           <div class="contact-item">
             <div class="ci-icon">✉️</div>
-            <div>
-              <strong>Email</strong>
-              <span>info@beltahtech.co.ke</span>
-            </div>
+            <div><strong>Email</strong><span>info@beltahtech.co.ke</span></div>
           </div>
         </div>
       </div>
-      <form class="contact-form" id="contactForm">
+      <form id="contactForm" class="contact-form fade-in">
         <div class="form-row">
           <div class="form-group">
-            <label for="name">Full Name</label>
-            <input type="text" id="name" placeholder="John Kamau" required />
+            <label for="name">Name</label>
+            <input id="name" type="text" required>
           </div>
           <div class="form-group">
-            <label for="email">Email Address</label>
-            <input type="email" id="email" placeholder="john@example.com" required />
+            <label for="email">Email</label>
+            <input id="email" type="email" required>
           </div>
-        </div>
-        <div class="form-group">
-          <label for="service">Service Interested In</label>
-          <select id="service">
-            <option value="">Select a service...</option>
-            <option>Point of Sale System</option>
-            <option>Bulk SMS</option>
-            <option>Biometric Attendance</option>
-            <option>CCTV Installation</option>
-            <option>Web Design &amp; Development</option>
-            <option>School Management System</option>
-            <option>Other</option>
-          </select>
         </div>
         <div class="form-group">
           <label for="message">Message</label>
-          <textarea id="message" rows="4" placeholder="Tell us about your project or inquiry..."></textarea>
+          <textarea id="message" rows="5" required></textarea>
         </div>
         <button type="submit" class="btn btn-primary full-width">Send Message →</button>
-        <p class="form-note" id="formNote"></p>
+        <div id="formNote" class="form-note"></div>
       </form>
     </div>
   </section>
 
-  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <!-- Footer -->
   <footer class="footer">
-    <div class="container footer-inner">
-      <div class="footer-brand">
-        <a href="#" class="logo">
-          <span class="logo-icon">B</span>
-          <span class="logo-text">Beltah <span>Tech</span></span>
-        </a>
-        <p>Innovative ICT solutions transforming businesses across Kenya.</p>
-      </div>
-      <div class="footer-links">
-        <h5>Services</h5>
-        <ul>
-          <li><a href="#services">POS System</a></li>
-          <li><a href="#services">Bulk SMS</a></li>
-          <li><a href="#services">Biometrics</a></li>
-          <li><a href="#services">CCTV</a></li>
-          <li><a href="#services">Web Design</a></li>
-          <li><a href="#services">School System</a></li>
-        </ul>
-      </div>
-      <div class="footer-links">
-        <h5>Company</h5>
-        <ul>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#stats">Why Us</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-      <div class="footer-links">
-        <h5>Contact</h5>
-        <ul>
-          <li><a href="tel:+254700000000">+254 700 000 000</a></li>
-          <li><a href="mailto:info@beltahtech.co.ke">info@beltahtech.co.ke</a></li>
-          <li><span>Nairobi, Kenya</span></li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <p>© <span id="year"></span> Beltah Tech Services. All rights reserved.</p>
-    </div>
-  </footer>
-
-  <script src="js/main.js"></script>
-</body>
-</html>
+    <div class="container footer-bottom">
+      <p>©
